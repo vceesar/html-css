@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Victor" <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Imagens Dinamicas </title>
+    </body>
+    <h1>Imagens dinâmicas (pictures)</h1>
+    <p>Veja que a imagem se adapta ao tamanho do navegador.</p>
+    <picture>
+        <source media="(max-width: 600px)" srcset="imagens/bicicleta.png">
+        <source media="(max-width: 1100px)" srcset="imagens/carro.png">
+        <img src="imagens/caminhao.png" alt="Escolha seu veículo">
+
+
+
+        <strong>Tambem é possivel fazer o inverso do que foi feito acima!!!!</strong>
+
+        <!-- 
+            <source media="(min-width:1050px )" srcset="imagens/caminhao.png" type="image/png">
+            <source media="(min-width: 750px)" srcset="imagens/carro.png" type="image/png">
+            <img src="imagens/bicicleta.png" alt=""> 
+    
+    -->
+    </picture>
+
+</html>
