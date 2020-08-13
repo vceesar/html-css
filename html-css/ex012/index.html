@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Victor">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Videos</title>
+</head>
+
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video esta hospedado no meu proprio servidor.</p>
+
+
+  <!--   <video src="midia/plantao-globo.m4v" width="500px" controls></video> -->
+
+    <!-- ou -->
+
+
+    <video controls preload="none" poster="imagens/foto-plantao.png"  loop>
+        <source src="midia/plantao-globo.mp4" type="video/mp4">
+        <source src="midia/plantao-globo.m4v" type="video/mp4">
+        <source src="midia/plantao-globo.webm" type="video/webm">
+        <source src="midia/plantao-globo.ogv" type="video/ogv">
+
+        <p> Seu navegador nao tem compatibilidade para rodar os videos.
+            <a href="midia/plantao-globo.mp4" download="plantao-globo.mp4" type="video/mp4">Clique aqui para baixar</a>
+        </p>
+    </video>
+
+<!-- ou HOSPEDAGEM EXTERNA-->
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bexz3ZPTnbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+
+</html>

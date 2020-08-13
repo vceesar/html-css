@@ -4,19 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Victor" <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="author" content="Victor">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <title>Imagens Dinamicas </title>
-    </body>
+</head>
+
+</body>
+
     <h1>Imagens dinâmicas (pictures)</h1>
     <p>Veja que a imagem se adapta ao tamanho do navegador.</p>
     <picture>
-        <source media="(max-width: 600px)" srcset="imagens/bicicleta.png">
+        <source media="(max-width: 750px)" srcset="imagens/bicicleta.png">
         <source media="(max-width: 1100px)" srcset="imagens/carro.png">
         <img src="imagens/caminhao.png" alt="Escolha seu veículo">
 
 
-
+<br>
         <strong>Tambem é possivel fazer o inverso do que foi feito acima!!!!</strong>
 
         <!-- 
@@ -27,4 +31,24 @@
     -->
     </picture>
 
+
+
+    <h1> Reproduzindo audio</h1>
+    <p> Vamos aprender a reproduzir audios em HTML5</p>
+    <audio src="midia/guanacast-33.mp3" controls ></audio>
+
+    <!-- OU-->
+
+    <audio>
+
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+
+<!-- Vai tentar executar os audios de cima pra baixo, e caso ocorra algum problema de execução, vai printar a tag <p> abaixo-->
+        
+    <p>Infelizmente seu navegador não consegue reproduzir áudio.
+        <a href="midia/guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg">Clique aqui para baixar o arquivo</a> </p>
+    </audio>
+    
 </html>
