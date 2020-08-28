@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+
+/* 
+        SELETORES PERSONALIZADOS:
+        # = ID 
+        . = CLASS 
+        : = PSEUDO-CLASS 
+        :: = PSEUDO - ELEMENT 
+        > = CHILDREN   */
+        
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            list-style-type: none;
+            color:red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color:purple;
+            
+        }
+        a:hover{
+            text-decoration:underline;
+            color:black;
+        }
+        a:active {
+            
+             color :green;
+        }
+
+        a::after{
+            content: '[link]';
+           
+        }
+     
+        
+      
+    </style>
+    <title>Links</title>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+
+    <ul type="circle">
+        <a href="https://github.com/gustavoguanabara/html-css" target="_blank" rel="next" ><li>Repositorio Github</li></a>
+        <a href="https://github.com/gustavoguanabara/html-css" target="_blank" rel="next"><li>Canal do Youtube</li></a>
+        <a href="https://github.com/gustavoguanabara/html-css" target="_blank" rel="next"><li>Site do CursoEmVideo</li></a>
+    </ul>
+</body>
+
+
+</html>
