@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body{
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    
+   
+}
+header > div:hover > p{
+    display: block;
+}
+a{
+
+    text-decoration-color: black;
+    list-style: circle;
+    list-style-image: linear-gradient(black);
+    color: black;
+    
+   
+}
+a:hover{
+    color: indigo;
+}
+
+
+a > p{
+    border: 10px solid black
+}
+ 
